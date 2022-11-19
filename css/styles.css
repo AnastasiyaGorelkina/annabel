@@ -53,7 +53,7 @@ h1, h2, h3, p {
 }
 .header{
     border: 1px solid var(--primary-text-color);
-    box-shadow: 0px 4px 4px rgba(6, 29, 10, 0.15);
+    box-shadow: 0px 4px 4px rgba(6, 29, 10, 0.15), 0px 4px 4px rgba(6, 29, 10, 0.15);
    
 }
 .auth-cont{
@@ -129,10 +129,21 @@ h1, h2, h3, p {
     background-color: var(--accsent-color);
     color: var(--secondary-ac-color);
     border: 1px solid var(--accsent-color);
+    
     border-radius: 4px;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #ff5c2b, #e24d24);
+    box-shadow:  5px 5px 8px #642210;
+
     font-weight: 700;
     font-size: 20px;
     cursor: pointer;
+}
+.button-hero:hover {
+    border-radius: 1px;
+background: linear-gradient(145deg, #e24d24, #ff5c2b);
+box-shadow:  5px 5px 8px #642210,
+             -2px -2px 5px #ff8a40;
 }
 
 .section {
@@ -160,6 +171,12 @@ h1, h2, h3, p {
              6px 6px 12px #ffffc8;
 
     text-align: center;
+}
+.precedence .item:hover {
+    border-radius: 21px;
+    background: linear-gradient(145deg, #e2d4a4, #fffdc3);
+    box-shadow:  6px 6px 12px #e2d4a4,
+             -6px -6px 12px #ffffc8;
 }
 .pre-text {
     font-weight: 700;
