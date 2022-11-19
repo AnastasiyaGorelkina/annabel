@@ -139,7 +139,29 @@ h1, h2, h3, p {
     margin: 90px 0px;
 }
 .title {
+    margin-bottom: var(--margin-gap-set);
+
     color: var(--titel-text-color);
     font-size: 36px;
     text-align: center;
+}
+.precedence {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--margin-gap-set);
+    
+}
+.precedence .item {
+    flex-basis: calc((100% - var(--margin-gap-set)*2) / 3);
+    padding: 15px;
+    border-radius: 21px;
+    background: linear-gradient(315deg, #e2d4a4, #fffdc3);
+    box-shadow:  -6px -6px 12px #e2d4a4,
+             6px 6px 12px #ffffc8;
+
+    text-align: center;
+}
+.pre-text {
+    font-weight: 700;
+    font-size: 17px;
 }
