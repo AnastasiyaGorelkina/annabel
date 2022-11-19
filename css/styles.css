@@ -134,3 +134,12 @@ h1, h2, h3, p {
     font-size: 20px;
     cursor: pointer;
 }
+
+.section {
+    margin: 90px 0px;
+}
+.title {
+    color: var(--titel-text-color);
+    font-size: 36px;
+    text-align: center;
+}
